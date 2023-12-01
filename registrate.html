@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #555;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff9900;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        form h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form p {
+            margin: 10px 0;
+        }
+
+        form input[type="text"],
+        form input[type="radio"],
+        form input[type="checkbox"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            width: 100%;
+            height: 30px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="./imagenes/nuevas profesiones.png" style="width: 100%;" alt="">
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Profesiones.html">Profesiones</a>
+        <a href="competencias.html">Competencias</a>
+        <a href="orientacion.html">Orientación</a>
+        <a href="#">Registrate</a>
+    </nav>
+
+    <section id="#">
+        <h1 >Formulario de registro</h1>
+        <form action="" method="get">
+
+            Nombre
+            <input type="text" name="nombre" maxlength="50" />
+            Apellidos
+             <input type="text" name="apellidos" maxlength="50" />
+
+          Sexo
+<br><p>
+          <select name="" id="">
+            <option value="hombre">hombre</option>
+            <option value="mujer">mujer</option>
+            <option value="otro">prefiero no decirlo</option>
+          </select>
+        </p>    
+            Correo:
+            <input type="text" name="correo" maxlength="100" />
+
+
+
+            <input type="checkbox" name="condiciones" /> Declaro haber leido y acepto las condiciones generales del
+            programa y la normativa sobre proteccion de datos
+
+
+<p>
+            <input type="submit" value="Enviar" />
+        </p>
+        </form>
+    </section>
+
+</body>
+<div style="margin-top: 50px;"></div>
+<footer style=" margin: auto;">
+<p> Manquecheo Francina, Juarez Morena. Lenguaje y Produccion Multimedial - Edicion Multimedial. 2023
+        Escuela 746
+</p>
+</footer>
+
+</html>
